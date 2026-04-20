@@ -27,4 +27,4 @@ Come view the website here: [mattdanq.github.io](mattdanq.github.io)
 [Material UI](https://mui.com/material-ui/getting-started/)
 ***
 ### ***My Own Notes***
-remember to run ***npm run build*** every time I update the website
+remember to run ***npm run build*** every time I update the website then ***npm run deploy***
