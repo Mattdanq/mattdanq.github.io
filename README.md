@@ -21,3 +21,7 @@ Come view the website here: [mattdanq.github.io](mattdanq.github.io)
 4. This will open the website on your browser
 ***
 ### ***Website Pages Images***
+***
+### ***Resources***
+[https://github.com/rafgraph/spa-github-pages](https://github.com/rafgraph/spa-github-pages)
+[Material UI](https://mui.com/material-ui/getting-started/)
