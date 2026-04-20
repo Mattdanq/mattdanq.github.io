@@ -23,5 +23,8 @@ Come view the website here: [mattdanq.github.io](mattdanq.github.io)
 ### ***Website Pages Images***
 ***
 ### ***Resources***
-[https://github.com/rafgraph/spa-github-pages](https://github.com/rafgraph/spa-github-pages)
+[SPA React Site Setup](https://github.com/rafgraph/spa-github-pages)
 [Material UI](https://mui.com/material-ui/getting-started/)
+***
+### ***My Own Notes***
+remember to run ***npm run build*** every time I update the website
