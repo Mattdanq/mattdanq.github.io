@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.afd36e82.js",
-    "index.html": "/index.html",
-    "main.afd36e82.js.map": "/static/js/main.afd36e82.js.map"
+    "main.js": "/mattdanq.github.io/static/js/main.15f4039c.js",
+    "index.html": "/mattdanq.github.io/index.html",
+    "main.15f4039c.js.map": "/mattdanq.github.io/static/js/main.15f4039c.js.map"
   },
   "entrypoints": [
-    "static/js/main.afd36e82.js"
+    "static/js/main.15f4039c.js"
   ]
 }
