@@ -1,6 +1,11 @@
+import TopBar from "../components/topBar";
+
 const Projects = () => {
-    return(
-        <h2>If you see this the projects page correctly loading on github pages</h2>
+    return (
+        <div>
+            <TopBar/>
+            <h2>If you see this the projects page correctly loading on github pages</h2>
+        </div>
     );
 }
 

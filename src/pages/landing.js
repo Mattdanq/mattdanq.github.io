@@ -1,10 +1,12 @@
 import TopBar from '../components/topBar';
+import {Box, Button} from '@mui/material';
 
 const Landing = () => {
     return(
-        
-        <TopBar />
-        
+        <div>
+            <TopBar />
+            <Button variant="text">test</Button>
+        </div>
     );
 }
 

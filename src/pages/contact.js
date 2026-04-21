@@ -1,6 +1,11 @@
+import TopBar from "../components/topBar";
+
 const Contact = () => {
     return(
-        <h2>If you see this the contact page correctly loading on github pages</h2>
+        <div>
+            <TopBar/>
+            <h2>If you see this the contact page correctly loading on github pages</h2>
+        </div>
     );
 }
 
