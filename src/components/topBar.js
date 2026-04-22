@@ -1,5 +1,5 @@
 import {AppBar, Box, Button, Container, Toolbar, Typography} from '@mui/material';
-import { useNavigate, Link } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 
 function TopBar() {
 
@@ -7,8 +7,9 @@ function TopBar() {
         fontWeight: "bold",
         fontSize: "19px",
         color: '#dbdbd5',
-        "&hover": {
-            backgroundColor: ""
+        "&.active": {backgroundColor:"#211f1f"},
+        "&:hover": {
+            backgroundColor: "#453f3f",
         },
     };
 
@@ -16,10 +17,10 @@ function TopBar() {
         <AppBar position = "static" sx={{backgroundColor: '#302b2b'}}>
             <Toolbar sx={{height: 75}}>
                 <Box sx={{display: "flex", justifyContent: "center", gap: 3, width: "100%"}}>
-                    <Button color="inherit" variant="text" component={Link} to="/" sx={bStyle}>Home</Button>
-                    <Button color="inherit" variant="text" component={Link} to="/About" sx={bStyle}>About Me</Button>
-                    <Button color="inherit" variant="text" component={Link} to="/Projects" sx={bStyle}>Projects</Button>
-                    <Button color="inherit" variant="text" component={Link} to="/Contact" sx={bStyle}>Contact</Button>                    
+                    <Button color="inherit" variant="text" component={NavLink} to="/" sx={bStyle}>Home</Button>
+                    <Button color="inherit" variant="text" component={NavLink} to="/About" sx={bStyle}>About Me</Button>
+                    <Button color="inherit" variant="text" component={NavLink} to="/Projects" sx={bStyle}>Projects</Button>
+                    <Button color="inherit" variant="text" component={NavLink} to="/Contact" sx={bStyle}>Contact</Button>                    
                 </Box>       
             </Toolbar>
         </AppBar>
