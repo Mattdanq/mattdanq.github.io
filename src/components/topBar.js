@@ -1,4 +1,4 @@
-import {AppBar, Box, Button, Container, Toolbar, Typography} from '@mui/material';
+import {AppBar, Box, Button, Toolbar} from '@mui/material';
 import {NavLink } from 'react-router-dom';
 
 function TopBar() {
@@ -20,7 +20,7 @@ function TopBar() {
                     <Button color="inherit" variant="text" component={NavLink} to="/" sx={bStyle}>Home</Button>
                     <Button color="inherit" variant="text" component={NavLink} to="/About" sx={bStyle}>About Me</Button>
                     <Button color="inherit" variant="text" component={NavLink} to="/Projects" sx={bStyle}>Projects</Button>
-                    <Button color="inherit" variant="text" component={NavLink} to="/Contact" sx={bStyle}>Contact</Button>                    
+                    <Button color="inherit" variant="text" component={NavLink} to="/Contact" sx={bStyle}>Contact Me</Button>                    
                 </Box>       
             </Toolbar>
         </AppBar>
