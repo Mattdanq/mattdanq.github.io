@@ -82,6 +82,10 @@ const Projects = () => {
                         </CardActions>
                     </Card>
 
+                    <Typography variant="h4" fontWeight="bold" gutterBottom >
+                    Other Projects
+                    </Typography>
+
                     {/* Grid of Other Projects */}
                     <Grid container spacing={3}>
                         {otherProjects.map((project, idx) => (
